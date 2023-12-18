@@ -46,107 +46,11 @@ const reminders = (state = [], action) => {
         });
 
         const [sendMessagesBox, setSendMessagesBox] = useState([
-            {
-                id: 1,
-                messageText: 'Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice dayv Hello, hope you have a nice day Hello, hope you have a nice day',
-                date: "25/4/2023",
-                country: 'Syria',
-                read: false
-            },
-            {
-                id: 2,
-                messageText: 'good night',
-                date: "23/4/2023",
-                country: 'Germany',
-                read: false
-            },
-            {
-                id: 3,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 4,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 5,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 6,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 7,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
+           
         ]);
 
         const [receivedMessagesBox, setReceivedMessagesBox] = useState([
-            {
-                id: 1,
-                messageText: 'Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice day Hello, hope you have a nice dayv Hello, hope you have a nice day Hello, hope you have a nice day',
-                date: "25/4/2023",
-                country: 'Syria',
-                read: false
-            },
-            {
-                id: 2,
-                messageText: 'good night',
-                date: "23/4/2023",
-                country: 'Germany',
-                read: false
-            },
-            {
-                id: 3,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 4,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 5,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 6,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
-            {
-                id: 7,
-                messageText: 'I have a good friends in my country , i hope you have a friend in your country  ',
-                date: "22/4/2023",
-                country: 'Sadui',
-                read: false
-            },
+   
 
         ]);
 
